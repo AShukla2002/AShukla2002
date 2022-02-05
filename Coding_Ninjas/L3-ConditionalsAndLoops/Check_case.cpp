@@ -1,4 +1,4 @@
-Write a program that takes a character as input and prints either 1, 0 or -1 according to the following rules.
+/*Write a program that takes a character as input and prints either 1, 0 or -1 according to the following rules.
 1, if the character is an uppercase alphabet (A - Z)
 0, if the character is a lowercase alphabet (a - z)
 -1, if the character is not an alphabet
@@ -15,11 +15,12 @@ Sample Input 1 :
 v
 Sample Output 1 :
 0
-
-/--Code--/
+*/
+//--Code--//
 
 #include<iostream>
 using namespace std;
+
 int main() {
     char ch;
     cin>>ch;
